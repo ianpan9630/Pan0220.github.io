@@ -1,0 +1,98 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#TabMenu1
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 15px 0 4px 10px;
+   overflow: hidden;
+}
+#TabMenu1 li
+{
+   float: left;
+}
+#TabMenu1 li a.active, #TabMenu1 li a:hover.active
+{
+   position: relative;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu1 li a
+{
+   padding: 5px 14px 8px 14px;
+   margin-right: 3px;
+   text-decoration: none;
+   text-transform: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   transition: 200ms all linear;
+}
+#TabMenu1 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#TabMenu1
+{
+   border-bottom: 1px solid #0D6EFD;
+}
+#TabMenu1 li a.active, #TabMenu1 li a:hover.active
+{
+   background-color: #0A58CA;
+   color: #FFFFFF;
+}
+#TabMenu1 li a
+{
+   border: 1px solid #0D6EFD;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #0D6EFD;
+   color: #FFFFFF;
+}
+#TabMenu1 li a:hover
+{
+   background-color: #C0C0C0;
+   color: #666666;
+}
+#InlineFrame1
+{
+   box-sizing: border-box;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   margin: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
